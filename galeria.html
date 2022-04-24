@@ -9,30 +9,222 @@
     <link href="css/estilos.css" rel="stylesheet" type="text/css"></head>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-info border border-2" style="width: 98%; margin: auto;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img href="index.html"src="imagenes/logo.png" alt="" width="40" height="40">
-            Movistar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link " a href="login.html">Iniciar Sesión</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="galeria.html">Galería</a>
-              </li>
-            </ul>
+  <!-- NAV -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-info border border-2" style="width: 98%; margin: auto;">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img href="index.html"src="imagenes/logo.png" alt="" width="40" height="40">
+              Movistar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link " a href="login.html">Iniciar Sesión</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="galeria.html">Galería</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+<!-- BANNER -->
+<div id="carouselExampleIndicators" class="carousel slide border border-2" style="width: 98%; margin: auto;" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
+  <div class="carousel-inner " >
+    <div class="carousel-item active">
+      <img src="imagenes/producto 1.webp" class="d-block w-100" alt="producto 1">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/producto 2.webp" class="d-block w-100" alt="producto 2">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+<!--CARDS-->
+    <div class="row row-cols-1 row-cols-md-3 g-6" style="width:90%; margin:0 auto;">
+      <div class="col">
+        <div class="card" style="border: 3px solid; margin: 8px;">
+          <div class="card-body">
+            <h5 class="card-title">Apple iPhone SE 3TH 5G 64GB Azul Medianoche</h5>
+            <h5 class="card-title">Precio $459.990</h5>
+            
+          <div class="card-body text-center" >
+            <img src="imagenes/iphone azul.png" class="card-img-top tarjeta"alt="...">
+            <nav>
+              <div class="container">
+                <div class="row">
+                  <div class="col col-7">
+                    <h5 class="card-title">Cantidad</h5>
+                  </div>
+                  <div class="col col-3">
+
+                  </div>
+                  <div class="col col-2 input">
+                    <input type="number">
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+          
+
+          </div>
+        </div> 
+      </div>
 
 
+      <div class="col">
+        <div class="card" style="border: 3px solid; margin: 8px;">
+          <div class="card-body">
+            <h5 class="card-title">Apple iPhone SE 3TH 5G 64GB Blanco Estelar</h5>
+            <h5 class="card-title">Precio $459.990</h5>
+            <div class="card-body text-center" >
+              <img src="imagenes/iphone blanco.png" class="card-img-top tarjeta" alt="...">
+            </div>
+            <nav>
+              <div class="container">
+                <div class="row">
+                  <div class="col col-7">
+                    <h5 class="card-title">Cantidad</h5>
+                  </div>
+                  <div class="col col-3">
 
-    
+                  </div>
+                  <div class="col col-2 input">
+                    <input type="number">
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div> 
+      </div>
+
+
+      <div class="col">
+        <div class="card" style="border: 3px solid; margin: 8px;">
+          <div class="card-body">
+            <h5 class="card-title">Apple iPhone SE 3TH 5G 64GB Product Red</h5>
+            <h5 class="card-title">Precio $459.990</h5>
+            <div class="card-body text-center" >
+            <img src="imagenes/iphone rojo.png" class="card-img-top tarjeta" alt="...">
+            </div>
+            <nav>
+              <div class="container">
+                <div class="row">
+                  <div class="col col-7">
+                    <h5 class="card-title">Cantidad</h5>
+                  </div>
+                  <div class="col col-3">
+
+                  </div>
+                  <div class="col col-2 input">
+                    <input type="number">
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div> 
+      </div>
+
+
+      <div class="col">
+        <div class="card" style="border: 3px solid; margin: 8px;">
+          <div class="card-body">
+            <h5 class="card-title">Xiaomi Redmi Note 11 Pro 5G 128GB Polar White</h5>
+            <h5 class="card-title">Precio $459.990</h5>
+            <div class="card-body text-center" >
+            <img src="imagenes/redmi blanco.png" class="card-img-top tarjeta" alt="...">
+            </div>
+            <nav>
+              <div class="container">
+                <div class="row">
+                  <div class="col col-7">
+                    <h5 class="card-title">Cantidad</h5>
+                  </div>
+                  <div class="col col-3">
+
+                  </div>
+                  <div class="col col-2 input">
+                    <input type="number">
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div> 
+      </div>
+
+
+      <div class="col">
+        <div class="card" style="border: 3px solid;margin: 8px;">
+          <div class="card-body">
+            <h5 class="card-title">vivo Y20 Obsidian Black</h5>
+            <h5 class="card-title">Precio $124.990</h5>
+            <div class="card-body text-center" >
+            <img src="imagenes/vivo negro.png" class="card-img-top tarjeta" alt="...">
+            </div>
+            <nav>
+              <div class="container">
+                <div class="row">
+                  <div class="col col-7">
+                    <h5 class="card-title">Cantidad</h5>
+                  </div>
+                  <div class="col col-3">
+
+                  </div>
+                  <div class="col col-2 input">
+                    <input type="number">
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div> 
+      </div>
+
+
+      <div class="col">
+        <div class="card" style="border: 3px solid;margin: 8px;">
+          <div class="card-body">
+            <h5 class="card-title">Xiaomi Mi 10T Lite Atlantic Blue</h5>
+            <h5 class="card-title">Precio $239.990</h5>
+            <div class="card-body text-center" >
+            <img src="imagenes/xiaomi.png" class="card-img-top tarjeta" alt="...">
+            </div>
+            <nav>
+              <div class="container">
+                <div class="row">
+                  <div class="col col-7">
+                    <h5 class="card-title">Cantidad</h5>
+                  </div>
+                  <div class="col col-3">
+
+                  </div>
+                  <div class="col col-2 input">
+                    <input type="number">
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div> 
+      </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 <footer>

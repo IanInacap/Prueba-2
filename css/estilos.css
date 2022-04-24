@@ -30,11 +30,30 @@ footer nav{
       height: 150px;
   }
   .login{
-    width: 800px;
+    width: 80%;
     height: 80px;
     font-size: 20px;
     border-radius: 8px;
     margin-top: 10px;
     resize: none;
-    padding-left: 400px;
+    margin-left: 5%;
+}
+.tarjeta{
+    height:250px ;
+    width: 150px;
+    margin: auto;
+    position: relative;
+}
+.boton{
+    list-style: none;
+    float: left;
+}
+.input input{
+    width: 40px;
+}
+body{
+    background-color: rgb(98, 171, 255);
+}
+.col {
+    border: 10px ;
 }
