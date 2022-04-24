@@ -1,13 +1,4 @@
-#lista{
-    float: left;
-    list-style: none;
-}
-#logo {
-    float: left;
-}
-#carousel-item{
-    margin-top: 200px;
-}
+
 #acerca h1{
     font-size:large;
 }
@@ -26,4 +17,24 @@
 footer nav{
     font-weight:bold ;
     text-align: center;
+}
+.carousel .carousel-item {
+    height: 150px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit:fill;
+      top: 0;
+      left: 0;
+      height: 150px;
+  }
+  .login{
+    width: 800px;
+    height: 80px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    resize: none;
+    padding-left: 400px;
 }
