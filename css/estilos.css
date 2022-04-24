@@ -1,0 +1,25 @@
+#lista{
+    float: left;
+    list-style: none;
+}
+#logo {
+    float: left;
+}
+#carousel-item{
+    margin-top: 200px;
+}
+#acerca h1{
+    font-size:large;
+}
+#acerca h2{
+    font-size:medium;
+}
+
+.noticia{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+}
+.fila{
+    margin: 5px;
+}
